@@ -1,0 +1,73 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.team-name{
+    padding-top: 2rem;
+}
+
+.card{
+    margin: 1.25rem auto;
+}
+
+.head-card{
+    width: 20em;
+    /* height: 15em; */
+}
+
+.sub-card{
+    width: 19em;
+}
+
+.core-team-card{
+    border-bottom: 5px solid #2a3d66;
+}
+
+.rp-team-card{
+    border-bottom: 5px solid #150485;
+}
+
+.opm-team-card{
+    border-bottom: 5px solid #fca652;
+}
+
+.iar-team-card{
+    border-bottom: 5px solid #fcf876;
+}
+
+.events-team-card{
+    border-bottom: 5px solid #af2d2d;
+}
+
+.workshops-team-card{
+    border-bottom: 5px solid #581c0c;
+}
+
+.card-img-top{
+    width: 10em;
+    height: 10em;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.card-sep{
+    width: 15%;
+}
+
+@media all and (max-width :750px){
+
+    h1{
+        font-size: 2em;
+    }
+
+    .head-card{
+        width: 18em;
+    }
+    
+    .sub-card{
+        width: 17em;
+    }
+    
+}
